@@ -4,8 +4,8 @@
 cask "cursor-auto-runner" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.24"
-  sha256 arm: "5955a7d9fd5a8f3e07bffccc583366e2d9b7eb73c67fd6561d9267be0d2ff67e", intel: "288cf0199561d95255a7898dc8a6d262c19259bceb796c0f1567c4b72ad96bf5"
+  version "1.2.27"
+  sha256 arm: "0c2f453095be0429abd7219cd0610d9dffcce2b225fd747b7cabb8344a2e73df", intel: "b016e87f2c686a1519d4877774e7c1ef600fa80aec727c487341beabd80e287c"
 
   on_arm do
     url "https://github.com/KurtStevenK/cursor-auto-runner/releases/download/v#{version}/Cursor.Auto.Runner-#{version}-arm64.dmg"
