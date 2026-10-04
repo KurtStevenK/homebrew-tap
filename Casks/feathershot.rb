@@ -1,7 +1,7 @@
-# Rendered by CI: 1.3.19 and 6a1dd50d9ef0f5fddc808aeaf8c3563e1077600f74aeddb264c939da397d8c7d replaced with release version and DMG SHA-256.
+# Rendered by CI: 1.3.20 and d89e951bd7971a7903db427fc7ee8151ef2545566f25142783006322f7b842db replaced with release version and DMG SHA-256.
 cask "feathershot" do
-  version "1.3.19"
-  sha256 "6a1dd50d9ef0f5fddc808aeaf8c3563e1077600f74aeddb264c939da397d8c7d"
+  version "1.3.20"
+  sha256 "d89e951bd7971a7903db427fc7ee8151ef2545566f25142783006322f7b842db"
 
   url "https://github.com/KurtStevenK/FeatherShot/releases/download/v#{version}/FeatherShot-#{version}-(macOS).dmg"
   name "FeatherShot"
