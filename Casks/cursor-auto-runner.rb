@@ -4,8 +4,8 @@
 cask "cursor-auto-runner" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.2.45"
-  sha256 arm: "62597716824ed0d52eacaaca5cc5fed4058a322c90f45cf59d77449c22fa5c6f", intel: "089d42f5a07f209e69df78424da25b5679693506961a9b8f36174ceb8734f7b0"
+  version "1.2.54"
+  sha256 arm: "d879c09db9b581a33d1d1316b603ecdac597e562a7512f299fa9a0a680605266", intel: "0c6b83e3ebb089671b7f2b7d26c29d7ce26bd2746642b55d1c371f8304f4e677"
 
   on_arm do
     url "https://github.com/KurtStevenK/cursor-auto-runner/releases/download/v#{version}/Cursor.Auto.Runner-#{version}-arm64.dmg"
@@ -19,4 +19,13 @@ cask "cursor-auto-runner" do
   homepage "https://github.com/KurtStevenK/cursor-auto-runner"
 
   app "Cursor Auto Runner.app"
+
+  # Quit before uninstall so upgrades work when the app is running; explicit
+  # delete avoids hard failures if the user removed the bundle from Applications.
+  uninstall quit: [
+    "com.kurtstevenk.cursor-auto-runner",
+  ],
+           delete: [
+             "#{appdir}/Cursor Auto Runner.app",
+           ]
 end
