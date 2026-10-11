@@ -1,9 +1,9 @@
-# Rendered by CI: 1.3.24 and cf995aa0ca199e032061323e1b527c9fad8248f3a69941b2afdac97772c52e09 replaced with release version and DMG SHA-256.
+# Rendered by CI: 1.3.25 and 8f6cf554e426970e0b1c7686ca1339dc5968172fa1e3e83476152ce18110bae0 replaced with release version and DMG SHA-256.
 cask "feathershot" do
-  version "1.3.24"
-  sha256 "cf995aa0ca199e032061323e1b527c9fad8248f3a69941b2afdac97772c52e09"
+  version "1.3.25"
+  sha256 "8f6cf554e426970e0b1c7686ca1339dc5968172fa1e3e83476152ce18110bae0"
 
-  url "https://github.com/KurtStevenK/FeatherShot/releases/download/v#{version}/FeatherShot-#{version}-.macOS.dmg"
+  url "https://github.com/KurtStevenK/FeatherShot/releases/download/v#{version}/FeatherShot-#{version}-(macOS).dmg"
   name "FeatherShot"
   desc "Lightweight screenshot annotations"
   homepage "https://github.com/KurtStevenK/FeatherShot"
