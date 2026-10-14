@@ -1,9 +1,9 @@
-# Rendered by CI: 1.3.29, 2447529221bf7d6531e9470bb035b1812d316837adf2e9221459a2c92993caa9, FeatherShot-1.3.29-.macOS.dmg (GitHub renames "(macOS)" → ".macOS" on upload).
+# Rendered by CI: 1.3.30, 04d171be6274a9d3eb437f74763ad26e891714cbb1dd22b3b8df78e90a2793fe, FeatherShot-1.3.30-.macOS.dmg (GitHub renames "(macOS)" → ".macOS" on upload).
 cask "feathershot" do
-  version "1.3.29"
-  sha256 "2447529221bf7d6531e9470bb035b1812d316837adf2e9221459a2c92993caa9"
+  version "1.3.30"
+  sha256 "04d171be6274a9d3eb437f74763ad26e891714cbb1dd22b3b8df78e90a2793fe"
 
-  url "https://github.com/KurtStevenK/FeatherShot/releases/download/v#{version}/FeatherShot-1.3.29-.macOS.dmg"
+  url "https://github.com/KurtStevenK/FeatherShot/releases/download/v#{version}/FeatherShot-1.3.30-.macOS.dmg"
   name "FeatherShot"
   desc "Lightweight screenshot annotations"
   homepage "https://github.com/KurtStevenK/FeatherShot"
